@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        var animal = ["Lion", "Cat", "Dog", "Tiger", "Fox"]
+        document.write(animal)
+
+        document.write("<br>" + animal[1])
+        animal[3] = "Elephant"
+        document.write("<br>" + animal)
+        document.write("<br>" + animal.length)
+
+        for (var i = 0; i < animal.length; i++) {
+            document.write("<br>" + animal[i])
+        }
+        // animal[5] = "Tiger"
+        // document.write("<br>" + animal)
+        // animal.push("Horse")
+        // document.write("<br>" + animal)
+
+        // animal.shift()
+        // document.write("<br>" + animal)
+
+
+        // animal.pop()
+        // document.write("<br>" + animal)
+
+
+        // animal.splice(2, 2)
+
+        animal.sort()
+        document.write("<br>" + animal)
+
+        var number = [50, 20, 60, 70, 10, 30]
+        // document.write("<br>" + number.sort())
+
+        document.write(number[1] + number[3])
+    </script>
+</body>
+
+</html>
